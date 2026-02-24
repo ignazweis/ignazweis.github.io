@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+<article>
+  <h1>{{ page.title | escape }}</h1>
+  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
+    {{ page.date | date: "%d/%m/%Y" }}
+  </time>
+  {% if page.description %}
+  <p>{{ page.description }}</p>
+  {% endif %}
+  {% if page.toc == true %}
+    {% toc %}
+  {% endif %}
+  {{ content }}
+</article>

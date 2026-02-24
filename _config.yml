@@ -1,0 +1,29 @@
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-minifier
+  - jekyll-target-blank
+  - jekyll-toc
+
+url: "https://ignazweis.github.io"
+baseurl: ""
+
+liquid:
+  error_mode: warn
+

@@ -1,0 +1,7 @@
+<section>
+  <nav>
+    {% for item in site.data.nav_top %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+</section>
