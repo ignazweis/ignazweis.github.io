@@ -3,15 +3,15 @@ layout: base
 ---
 
 <section>
-    <h1>{{ page.title | escape }}</h1>
+    <h1 class="posts_title_h1">{{ page.title | escape }}</h1>
     {% for post in site.posts %}
-    <article>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">
+    <article class="posts_post">
+        <h2 class="posts_title_h2"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <time class="posts_date" datetime="{{ post.date | date: "%Y-%m-%d" }}">
             {{ post.date | date: "%d/%m/%Y" }}
         </time>
         {% if post.description %}
-        <p>{{ post.description }}</p>
+        <p class="posts_description">{{ post.description }}</p>
         {% endif %}
     </article>
     {% endfor %}
