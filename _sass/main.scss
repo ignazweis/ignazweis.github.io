@@ -1,0 +1,60 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --foreground: #111111;
+        --background: #ffffff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground: #ffffff;
+        --background: #111111;
+    }
+}
+
+html {
+    padding: 1rem;
+}
+
+body {
+    border: 1px solid var(--foreground);
+    background-color: var(--background);
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    border-top: 1px solid var(--foreground);
+    padding: 1rem;
+}
+
+.navigation_top {
+    display: flex;
+    border-bottom: 1px solid var(--foreground);
+}
+
+.item_navigation_top {
+    border-right: 1px solid var(--foreground);
+    padding: 1rem;
+}
+
+.posts_post {
+    border: 1px solid var(--foreground);
+    padding: 1rem;
+}
+
+.post_description {
+    border: 1px solid var(--foreground);
+    padding: 1rem;
+}
+
+.toc {
+    border: 1px solid var(--foreground);
+}
+
+.post_content {
+    border: 1px solid var(--foreground);
+    padding: 1rem;
+}
