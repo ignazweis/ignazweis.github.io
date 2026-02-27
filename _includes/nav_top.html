@@ -1,7 +1,10 @@
-<section>
-  <nav class="navigation_top">
+<div class="header">
+  <nav class="nav_bar">
     {% for item in site.data.nav_top %}
-    <a class="item_navigation_top" href="{{ item.link }}">{{ item.name }}</a>
+    <div class="nav_item">
+      <a class="nav_link" href="{{ item.link }}">{{ item.name }}</a>
+    </div>
     {% endfor %}
   </nav>
-</section>
+  <img class="logo" src="/assets/images/logo.svg">
+</div>
