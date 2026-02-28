@@ -10,6 +10,11 @@
     }
 }
 
+/*
+@media screen and (min-width: 800px) {
+}
+*/
+
 @font-face {
     font-family: "Montserrat";
     src: url("/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
@@ -36,6 +41,15 @@ footer {
     padding: 1rem;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #00B2FF;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -53,6 +67,8 @@ footer {
 }
 
 .nav_link {
+    color: #eaeaea;
+    text-decoration: none;
     padding: 1rem;
 }
 
