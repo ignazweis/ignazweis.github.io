@@ -10,10 +10,27 @@
     }
 }
 
-/*
 @media screen and (min-width: 800px) {
+    .posts_post {
+        border: 0;
+        padding: 0;
+    }
+
+    .post_description {
+        border: 0;
+        padding: 0;
+    }
+
+    .post_content {
+        border: 0;
+        padding: 0;
+    }
+
+    body {
+        background: red;
+    }
 }
-*/
+
 
 @font-face {
     font-family: "Montserrat";
