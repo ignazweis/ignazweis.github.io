@@ -1,12 +1,12 @@
 :root {
-    --foreground: #0d0d0d;
+    --text: #0d0d0d;
     --background: #f2f2f2;
     --links:   #0052cc;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --foreground: #f2f2f2;
+        --text: #f2f2f2;
         --background: #0d0d0d;
         --links: #80b3ff;
     }
@@ -22,9 +22,9 @@ html {
 }
 
 body {
-    border: 1px solid var(--foreground);
+    border: 1px solid var(--text);
     background-color: var(--background);
-    color: var(--foreground);
+    color: var(--text);
     font-family: "Montserrat", sans-serif;
 
 }
@@ -34,7 +34,7 @@ main {
 }
 
 footer {
-    border-top: 1px solid var(--foreground);
+    border-top: 1px solid var(--text);
     padding: 1rem;
 }
 
@@ -51,7 +51,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--foreground);
+    border-bottom: 1px solid var(--text);
 }
 
 .nav_bar {
@@ -60,11 +60,11 @@ a {
 
 .nav_item {
     display: flex;
-    border-right: 1px solid var(--foreground);
+    border-right: 1px solid var(--text);
 }
 
 .nav_link {
-    color: var(--foreground);
+    color: var(--text);
     text-decoration: none;
     padding: 1rem;
 }
@@ -75,21 +75,21 @@ a {
 }
 
 .posts_post {
-    border: 1px solid var(--foreground);
+    border: 1px solid var(--text);
     padding: 1rem;
 }
 
 .post_description {
-    border: 1px solid var(--foreground);
+    border: 1px solid var(--text);
     padding: 1rem;
 }
 
 .toc {
-    border: 1px solid var(--foreground);
+    border: 1px solid var(--text);
 }
 
 .post_content {
-    border: 1px solid var(--foreground);
+    border: 1px solid var(--text);
     padding: 1rem;
 }
 
