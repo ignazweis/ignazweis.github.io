@@ -94,17 +94,7 @@ a {
 }
 
 @media screen and (max-width: 800px) {
-    .posts_post {
-        border: 0;
-        padding: 0;
-    }
-
-    .post_description {
-        border: 0;
-        padding: 0;
-    }
-
-    .post_content {
+    .posts_post, .post_description, .post_content {
         border: 0;
         padding: 0;
     }
