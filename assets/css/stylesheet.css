@@ -1,12 +1,14 @@
 :root {
-    --foreground: #111111;
-    --background: #ffffff;
+    --foreground: #0d0d0d;
+    --background: #f2f2f2;
+    --links:   #0052cc;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --foreground: #ffffff;
-        --background: #111111;
+        --foreground: #f2f2f2;
+        --background: #0d0d0d;
+        --links: #80b3ff;
     }
 }
 
@@ -42,7 +44,7 @@ a:hover {
 
 a {
     text-decoration: none;
-    color: #00B2FF;
+    color: var(--links);
 }
 
 .header {
@@ -62,7 +64,7 @@ a {
 }
 
 .nav_link {
-    color: #eaeaea;
+    color: var(--foreground);
     text-decoration: none;
     padding: 1rem;
 }
