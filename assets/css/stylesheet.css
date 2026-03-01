@@ -10,28 +10,6 @@
     }
 }
 
-@media screen and (min-width: 800px) {
-    .posts_post {
-        border: 0;
-        padding: 0;
-    }
-
-    .post_description {
-        border: 0;
-        padding: 0;
-    }
-
-    .post_content {
-        border: 0;
-        padding: 0;
-    }
-
-    body {
-        background: red;
-    }
-}
-
-
 @font-face {
     font-family: "Montserrat";
     src: url("/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
@@ -111,4 +89,21 @@ a {
 .post_content {
     border: 1px solid var(--foreground);
     padding: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .posts_post {
+        border: 0;
+        padding: 0;
+    }
+
+    .post_description {
+        border: 0;
+        padding: 0;
+    }
+
+    .post_content {
+        border: 0;
+        padding: 0;
+    }
 }
