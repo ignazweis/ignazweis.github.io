@@ -27,3 +27,5 @@ baseurl: ""
 liquid:
   error_mode: warn
 
+source: ./
+destination: ./_site
