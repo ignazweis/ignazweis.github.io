@@ -83,6 +83,7 @@ a {
 
 .toc {
     border: 1px solid var(--text);
+    margin-bottom: 1rem;
 }
 
 .post_content {
