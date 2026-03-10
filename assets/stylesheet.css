@@ -35,6 +35,15 @@ footer {
     padding: 1rem;
 }
 
+img:not([class]) {
+    border: 2px dashed var(--text);
+    display: block;
+    padding: 2px;
+    margin: 20px auto;
+    max-width: 60%;
+    height: auto;
+}
+
 a:hover {
     text-decoration: underline;
 }
