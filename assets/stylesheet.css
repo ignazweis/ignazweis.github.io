@@ -97,3 +97,13 @@ a {
         padding: 0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    html {
+        padding: 0rem;
+    }
+    .post_content, .post_description, .posts_description {
+        hyphens: auto;
+        text-align: justify;
+    }
+}
