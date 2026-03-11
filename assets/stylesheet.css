@@ -66,6 +66,7 @@ p, a {
 
 .nav_bar {
     display: flex;
+    overflow: auto;
 }
 
 .nav_item {
@@ -83,6 +84,7 @@ p, a {
     width: 32px;
     height: 32px;
     margin-right: 9px;
+    margin-left: 9px;
 }
 
 .posts_post {
