@@ -119,7 +119,6 @@ p, a {
 
 .disclaimer {
     border: 1px solid var(--text);
-    box-shadow: inset 5px 0 0 #47D783, inset 1px 0 0 var(--text);
     padding: 1rem;
     margin-bottom: 1rem;
 }
