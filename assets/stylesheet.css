@@ -4,6 +4,16 @@
     --links:   #0052cc;
 }
 
+@font-face{
+    font-family: "acr";
+    src: url('VCR_OSD_MONO_1.001.ttf');
+}
+
+@font-face{
+    font-family: "alagard";
+    src: url('alagard.ttf');
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --text: #f2f2f2;
@@ -20,7 +30,7 @@ body {
     border: 1px solid var(--text);
     background-color: var(--background);
     color: var(--text);
-    font-family: serif;
+    font-family: alagard;
     max-width: 1000px;
     margin: 0 auto;
 
@@ -51,6 +61,10 @@ a:hover {
 a {
     text-decoration: none;
     color: var(--links);
+}
+
+p, a {
+    line-height: 1.5;
 }
 
 .header {
