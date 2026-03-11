@@ -100,6 +100,12 @@ a {
     padding: 1rem;
 }
 
+.disclaimer {
+    border: 2px dashed red;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 800px) {
     .posts_post, .post_description, .post_content {
         border: 0;

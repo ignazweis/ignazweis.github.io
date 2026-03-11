@@ -4,18 +4,29 @@ layout: base
 
 <article>
   <h1 class="post_title">{{ page.title | escape }}</h1>
+
   <time class="post_date" datetime="{{ page.date | date: "%Y-%m-%d" }}">
     {{ page.date | date: "%d/%m/%Y" }}
   </time>
+
   {% if page.description %}
   <p class="post_description">{{ page.description }}</p>
   {% endif %}
+
   <section class="toc">
   {% if page.toc == true %}
     {% toc %}
   {% endif %}
   </section>
+
+  {% if page.disclaimer %}
+  <section class="disclaimer">
+  {{ page.disclaimer }}
+  </section>
+  {% endif %}
+
   <section class="post_content">
   {{ content }}
   </section>
+
 </article>
