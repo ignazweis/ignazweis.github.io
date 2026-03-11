@@ -12,8 +12,17 @@
     }
 }
 
+[draggable="true"] {
+    cursor: url(move.png) 16 16, move;
+}
+
+input, textarea, p {
+    cursor: url(text.png) 15 16, text;
+}
+
 html {
     padding: 1rem;
+    cursor: url(default.png) 0 0, default;
 }
 
 body {
@@ -51,6 +60,7 @@ a:hover {
 a {
     text-decoration: none;
     color: var(--links);
+    cursor: url(link.png), pointer;
 }
 
 p, a {
