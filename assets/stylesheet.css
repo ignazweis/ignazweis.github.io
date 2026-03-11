@@ -78,6 +78,7 @@ a {
 .logo {
     width: 32px;
     height: 32px;
+    margin-right: 9px;
 }
 
 .posts_post {
