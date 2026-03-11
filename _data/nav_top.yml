@@ -2,3 +2,11 @@
   link: /
 - name: Posts
   link: /posts/
+- name: Links
+  link: /links/
+- name: Shrine
+  link: /shrine/
+- name: Guestbook
+  link: /guestbook/
+- name: Vault
+  link: /vault/
