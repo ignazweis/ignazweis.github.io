@@ -6,8 +6,6 @@ disclaimer: Não concluído.
 
 ## Introdução
 
-![palavras de rede social formando a imagem de like](/assets/social-media.png)
-
 Redes sociais são para começo de conversa plataformas digitais que permitem que as pessoas possam se comunicar a distância. Suas características permitem a comunicação instantanea sem o velho métodod de enviar cartas, telegramas ou montar cavalos e seguir quilometros a frente para uma conversa. essa invenção possibilitou junto a internet interconectar o mundo e as pessoas, rompendo barreiras geográficas de forma mais efetiva do que antigamente.
 
 ## Comunicação virtual estranha
