@@ -16,7 +16,7 @@
     cursor: url(move.png) 16 16, move;
 }
 
-input, textarea, p {
+input, textarea, p, li, h1, h2, h3, h4, h5, h6, small, time {
     cursor: url(text.png) 15 16, text;
 }
 
