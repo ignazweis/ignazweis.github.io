@@ -124,6 +124,13 @@ p, a {
     margin-bottom: 1rem;
 }
 
+footer {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 800px) {
     .posts_post, .post_description, .post_content {
         border: 0;
