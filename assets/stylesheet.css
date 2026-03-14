@@ -23,6 +23,7 @@ input, textarea, p, li, h1, h2, h3, h4, h5, h6, small, time {
 html {
     padding: 1rem;
     cursor: url(default.png) 0 0, default;
+    background-image: url("flowersblue.png");
 }
 
 body {
