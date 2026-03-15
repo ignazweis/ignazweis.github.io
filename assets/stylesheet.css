@@ -128,6 +128,10 @@ footer {
     flex-wrap: wrap;
 }
 
+.banner {
+    border: 1px solid var(--text);
+}
+
 @media screen and (max-width: 800px) {
     .posts_post, .post_description, .post_content {
         border: 0;
