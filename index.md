@@ -5,6 +5,7 @@ Contatos meus:
 
 Música:
 - イツエ (itsue) - Tender Four Seasons (2012) Full Ep
+- kurayamisaka - kimi wo omotte iru
 
 Livros:
 
