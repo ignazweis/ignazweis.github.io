@@ -1,3 +1,6 @@
+--- 
+layout: base.njk 
+--- 
 
 Contatos meus:
 - Mastodon: <a href="https://mastodon.social/@ignazweis_" rel="me">https://mastodon.social/@ignazweis_</a>
