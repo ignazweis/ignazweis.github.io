@@ -15,4 +15,4 @@ Livros:
 Database e/ou diretório:
 - Novel Updates: [https://www.novelupdates.com](https://www.novelupdates.com)
 - RanobeDB: [https://ranobedb.org](https://ranobedb.org)
-- AniDB: [AniDB](https://anidb.net)
+- AniDB: [https://anidb.net](https://anidb.net)
