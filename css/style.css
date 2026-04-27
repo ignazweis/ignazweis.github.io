@@ -1,3 +1,22 @@
 body {
+    background: #0f0f0f;
+    color: #eaeaea;
     font-family: sans-serif;
 }
+
+a {
+    display: inline-block;
+}
+
+a:link, a:visited {
+    /*
+     *color: #6ee7b7; confort green
+     *color: #c084fc;  confort purple
+     */
+    color: #7aa2f7; /* confort blue */
+}
+
+a:hover, a:active {
+    opacity: 0.8;
+}
+
