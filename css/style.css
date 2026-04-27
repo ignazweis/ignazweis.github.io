@@ -1,7 +1,27 @@
+:root {
+    --bg: #0f0f0f;
+    --text: #eaeaea;
+    --link: #7aa2f7;
+}
+
+body.light {
+    --bg: #f9f9f9;
+    --text: #222222;
+    --link: #0039B3;
+}
+
 body {
-    background: #0f0f0f;
-    color: #eaeaea;
+    background: var(--bg);
+    color: var(--text);
     font-family: sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 a {
@@ -13,10 +33,30 @@ a:link, a:visited {
      *color: #6ee7b7; confort green
      *color: #c084fc;  confort purple
      */
-    color: #7aa2f7; /* confort blue */
+    color: var(--link); /* confort blue */
 }
 
 a:hover, a:active {
     opacity: 0.8;
+}
+
+button {
+    border: 1px solid var(--text);
+    border-radius: 0px;
+    padding: 5px;
+    margin: 4px;
+    background-color: var(--bg);
+    color: var(--text);
+    cursor: pointer;
+    transition: opacity 0.1s;
+}
+
+button:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+button:active {
+    transform: translateY(1px);
 }
 
