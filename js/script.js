@@ -1,16 +1,18 @@
-const button = document.getElementById("themeBtn");
+document.addEventListener("DOMContentLoaded", () => {
+    const button = document.getElementById("themeBtn");
 
-button.addEventListener("click", () => {
-    document.body.classList.toggle("light");
+    if (!button) return;
 
-    localStorage.setItem(
-        "theme",
-        document.body.classList.contains("light") ? "light" : "dark"
-    );
-});
+    button.addEventListener("click", () => {
+        document.body.classList.toggle("light");
 
-window.onload = () => {
+        localStorage.setItem(
+            "theme",
+            document.body.classList.contains("light") ? "light" : "dark"
+        );
+    });
+
     if (localStorage.getItem("theme") === "light") {
         document.body.classList.add("light");
     }
-};
+});
